@@ -90,6 +90,9 @@ The practical benefit is auditability. When a user questions a return figure, we
 | dim_portfolio_company | Dimension   | Stores the acquired company name, industry sector, and country location.   |
 | dim_date| Dimension   | Stores calendar details to standardise quarterly and yearly time tracking. |
 
+## Semantic Model
+
+
 ## Key KPIs
 - EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
 - IRR (Internal Rate of Return) 
@@ -101,13 +104,13 @@ Tested with PySpark native checks:
 - ✅ No zero IRR
 
 
-## Power Bi Dashboard
+## 📊 Power Bi Dashboard
 - Executive Summary
 - Income Statement
 - Balance Sheet
 - Free Cash Flow
 
-## Genrative AI Application - Microsoft Copilot
+## 🤖 Genrative AI Application - Microsoft Copilot
 - Summarise report by using a smart narrative
 
 - Create report subscriptions with Copilot summaries
