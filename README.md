@@ -25,7 +25,15 @@ To address these challenges, an automated dashboard brings all key information i
 - ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 ## 📦 Data Architecture
-Medallion Architecture
+- Medallion Architecture
+
+We adopted the Medallion Architecture (Bronze → Silver → Gold) in Microsoft Fabric to bring structure and reliability to a data environment that is inherently messy. Private equity data arrives from many sources, each with different formats and quality levels.
+Bronze is the raw landing zone. Every record arrives exactly as the source sent it, nothing transformed or discarded.
+Silver is where data becomes trustworthy. Records are cleaned, standardised across portfolio companies, and validated before anything reaches a dashboard.
+Gold contains only business-ready metrics — EBITDA, IRR — consistent and ready for Power BI, Excel, or reporting.
+The practical benefit is auditability. When a user questions a return figure, we can trace it from the dashboard all the way back to the original source document.
+
+![PrivateEquityMedallion](https://github.com/BenjapornW/pe-ai-fabric/blob/main/img/pefabricdiagram.png)
 
 ## 🎯 Impact
 
