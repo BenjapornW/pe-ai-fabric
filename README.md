@@ -26,6 +26,13 @@ Private equity (PE) is an investment business where firms buy whole companies, i
 Many private equity firms rely on multiple Excel spreadsheets to track performance, making reporting slow, difficult to manage, and prone to errors. This often leads to inconsistent numbers, limited visibility, and delays in decision-making.
 To address these challenges, an automated dashboard brings all key information into one place, providing a single source of truth and real-time visibility into performance. This helps teams spend less time preparing reports and more time making informed decisions.
 
+## ⚠️ Challenges & Solutions
+  - Challenge: Inconsistent data formats across portfolio companies
+    -  → Solution: Standardization layer in Silver using Dataflow Gen2
+  - Challenge: Slow manual reporting cycles
+    -  → Solution: Automated pipeline with scheduled refresh
+  - Challenge: KPI inconsistency across teams
+    -  → Solution: Central semantic model as single source of truth
 
 ## 🛠 Technology Stack
 - Fabric
