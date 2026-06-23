@@ -104,7 +104,7 @@ Tested with PySpark native checks:
 - ✅ No zero IRR
 
 
-## 📊 Dat Visualizations: Power Bi Dashboard
+## 📊 Data Visualizations: Power Bi Dashboard
 Dashboard Structure: Top-Down Approach. 
 Our dashboard flows from a high-level summary down to deep financial details:
 - Overview (Executive Summary): High-level trends and key metrics at a glance.
@@ -125,6 +125,7 @@ Our dashboard flows from a high-level summary down to deep financial details:
 - Integrate with other Copilots
 
 - Automated KPI alerts and recommendations
+
 
 ## 🚀 Future Improvement
 - What-If Analysis – Allow users to ask questions such as "What happens if occupancy drops by 5%?" and receive projected outcomes.
