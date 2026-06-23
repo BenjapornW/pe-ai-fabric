@@ -35,6 +35,29 @@ The practical benefit is auditability. When a user questions a return figure, we
 
 ![PrivateEquityMedallion](https://github.com/BenjapornW/pe-ai-fabric/blob/main/img/pefabricdiagram.png)
 
+## 🧩 Components
+
+1. Data Sources
+- Files – CSV, Excel, and flat files.
+- Databases – Operational and transactional systems.
+- APIs – External applications and third-party data sources.
+
+2. Data Integration & Transformation
+- Data Pipeline – Automates data ingestion into Microsoft Fabric.
+- Bronze Layer – Stores raw source data.
+- Dataflow Gen2 – Cleanses and standardizes data.
+- Silver Layer – Stores validated and transformed data.
+- Notebooks – Performs advanced data transformations.
+- Gold Layer – Creates business-ready datasets.
+- SQL Endpoint / Data Warehouse – Enables SQL-based analytics and reporting.
+- Semantic Model – Provides centralized business metrics and KPIs.
+
+3. Visualization
+- Power BI – Connects to the Semantic Model to deliver interactive dashboards, reports, and performance insights.
+
+4. AI-Powered Insights
+- Copilot AI Agent – Generates executive summaries, explains performance trends, highlights key insights, and recommends actions based on dashboard data.
+
 ## 🎯 Impact
 - Replaced manual, Excel-based reporting with an automated daily pipeline, freeing the team for higher-value work.
 - Single shared semantic model eliminates version conflicts and ensures everyone works from the same numbers.
