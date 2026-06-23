@@ -105,10 +105,15 @@ Tested with PySpark native checks:
 
 
 ## 📊 Dat Visualizations: Power Bi Dashboard
-- Executive Summary
-- Income Statement
-- Balance Sheet
-- Free Cash Flow
+Dashboard Structure: Top-Down Approach. 
+Our dashboard flows from a high-level summary down to deep financial details:
+- Overview (Executive Summary): High-level trends and key metrics at a glance.
+  - Executive Summary
+- Analysis (Income Statement & Balance Sheet): Core financial health, revenue, and assets.
+  - Income Statement
+  - Balance Sheet
+- Detail (Free Cash Flow): Deep dive into exact cash movements.
+  - Free Cash Flow
 
 ## 🤖 Genrative AI Application - Microsoft Copilot
 - Summarise report by using a smart narrative
@@ -121,7 +126,7 @@ Tested with PySpark native checks:
 
 - Automated KPI alerts and recommendations
 
-## Future Improvement
+## 🚀 Future Improvement
 - What-If Analysis – Allow users to ask questions such as "What happens if occupancy drops by 5%?" and receive projected outcomes.
 - Copilot-generated executive summaries
 - Implement data quality monitoring, lineage tracking, and governance controls within Microsoft Fabric.
