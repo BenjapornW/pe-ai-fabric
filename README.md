@@ -21,7 +21,8 @@ To address these challenges, an automated dashboard brings all key information i
 
 ## 🛠 Technology Stack
 - Fabric
-- ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+- Power BI
+- Microsoft Copilot
 
 ## 📦 Data Architecture
 - Medallion Architecture
@@ -35,12 +36,20 @@ The practical benefit is auditability. When a user questions a return figure, we
 ![PrivateEquityMedallion](https://github.com/BenjapornW/pe-ai-fabric/blob/main/img/pefabricdiagram.png)
 
 ## 🎯 Impact
-
+- Replaced manual, Excel-based reporting with an automated daily pipeline, freeing the team for higher-value work.
+- Single shared semantic model eliminates version conflicts and ensures everyone works from the same numbers.
+- Near real-time portfolio visibility replaces monthly retrospectives, enabling faster and more informed decisions.
+- Embedded AI assists with research, memo drafting, and variance commentary without unnecessary cost overhead.
+- Full data lineage means every metric is traceable back to its source, which is critical for regulatory reporting.
 
 ## 💡 Key Takeaways
+- A trusted data foundation must come before AI. Automation only adds value when the underlying numbers are reliable.
+- Medallion Architecture suits PE data well. It handles inconsistent multi-source inputs while maintaining auditability.
+- A shared semantic model creates team alignment and removes the risks that come with spreadsheet-based workflows.
+- BI capabilities are most impactful when built around the firm's value creation objectives, not just data availability.
 
 
-## Power BI Dashboard
+## ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 
 
