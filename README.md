@@ -73,6 +73,26 @@ The practical benefit is auditability. When a user questions a return figure, we
 - A shared semantic model creates team alignment and removes the risks that come with spreadsheet-based workflows.
 - BI capabilities are most impactful when built around the firm's value creation objectives, not just data availability.
 
+## Gold Layer Star Schema
+| Table | Type | Description |
+| -------- | -------- | -------- |
+| fact_fund_performance  | Fact   | Tracks fund-level growth and investor returns using IRR and MOIC.  |
+| fact_portfolio_company_financials | Fact   | Tracks company-level operating profits and revenue using EBITDA.  |
+| dim_fund_family   | Dimension   | Stores the parent private equity firm name, scale, and headquarters.   |
+| dim_fund  | Dimension   | Stores the specific fund name, starting year, and investment strategy.  |
+| dim_portfolio_company | Dimension   | Stores the acquired company name, industry sector, and country location.   |
+| dim_date| Dimension   | Stores calendar details to standardise quarterly and yearly time tracking. |
+
+## Key KPIs
+- EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
+- IRR (Internal Rate of Return) 
+- MOIC (Multiple on Invested Capital)
+
+## 🧪 Data Quality
+Tested with PySpark native checks:
+
+- ✅ No zero IRR
+
 
 ## ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
