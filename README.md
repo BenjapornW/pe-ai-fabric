@@ -6,6 +6,8 @@
 2. [Problem Statement](#problem-statement)
 3. [Technology Stack](#technology-stack)
 4. [Data Architecture](#data-architecture)
+5. [Impact](#impact)
+6. [Key Takeaways](#key-takeaways)
 
 
 ## 🔭 About the Project
@@ -24,3 +26,8 @@ To address these challenges, an automated dashboard brings all key information i
 
 ## 📦 Data Architecture
 Medallion Architecture
+
+## 🎯 Impact
+
+
+## 💡 Key Takeaways
