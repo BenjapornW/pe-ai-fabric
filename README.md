@@ -57,7 +57,15 @@ The practical benefit is auditability. When a user questions a return figure, we
 
 ![PrivateEquityMedallion](https://github.com/BenjapornW/pe-ai-fabric/blob/main/img/pefabricdiagram.png)
 
+End-to-end flow:
 
+  1. Data ingested via Data Pipelines (CSV / API / DB)
+  2. Stored in Bronze layer (raw)
+  3. Cleaned using Dataflow Gen2 → Silver layer
+  4. Transformed via Notebooks → Gold layer
+  5. Semantic Model defines KPIs
+  6. Power BI consumes model
+  7. Copilot generates insights
 
 ## 🧩 Components
 
