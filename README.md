@@ -1,6 +1,5 @@
-# pe-ai-fabric
+# 💸 Portview 
 
-# 💸 
 ## 🔗 Table of Contents
 1. [About the Project](#about-the-project)
 2. [Problem Statement](#problem-statement)
@@ -11,7 +10,7 @@
 
 
 ## 🔭 About the Project
-
+Portview, an end-to-end Microsoft Fabric solution that automates private equity portfolio reporting and embeds AI to accelerate research, analysis, and investor communications.
 What is a private equity?
 Private equity (PE) is an investment business where firms buy whole companies, improve them, and sell them later for a profit. Unlike public stocks, these companies are not traded on open stock exchanges.
 
@@ -39,3 +38,9 @@ The practical benefit is auditability. When a user questions a return figure, we
 
 
 ## 💡 Key Takeaways
+
+
+## Power BI Dashboard
+
+
+
