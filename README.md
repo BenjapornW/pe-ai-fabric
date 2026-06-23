@@ -21,8 +21,19 @@ Private equity (PE) is an investment business where firms buy whole companies, i
 
 <img src="https://napkinfinance.com/wp-content/uploads/2018/01/NapkinFinance-PrivateEquity-Napkin-09-08-20-v05.jpg" width="460" height="460" alt="Private Equity Explained">
 
+## 🧭 Business Context
 
-## 🚩 Problem Statement
+  This solution supports two core private equity objectives:
+  
+  1. 📈 Identify Opportunities
+  
+  Surface underperforming assets and high-growth opportunities to support faster capital allocation and investment decisions.
+  
+  2. 📊 Monitor Performance
+  
+  Provide a consistent, real-time view of portfolio performance using standardised KPIs (IRR, MOIC, EBITDA), enabling early detection of performance gaps and informed decision-making.
+  
+  ## 🚩 Problem Statement
 Many private equity firms rely on multiple Excel spreadsheets to track performance, making reporting slow, difficult to manage, and prone to errors. This often leads to inconsistent numbers, limited visibility, and delays in decision-making.
 To address these challenges, an automated dashboard brings all key information into one place, providing a single source of truth and real-time visibility into performance. This helps teams spend less time preparing reports and more time making informed decisions.
 
