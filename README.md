@@ -101,7 +101,11 @@ Tested with PySpark native checks:
 - ✅ No zero IRR
 
 
-## ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+## Power Bi Dashboard
+- Executive Summary
+- Income Statement
+- Balance Sheet
+- Free Cash Flow
 
 ## Genrative AI Application - Microsoft Copilot
 - Summarise report by using a smart narrative
