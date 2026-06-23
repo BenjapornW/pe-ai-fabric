@@ -98,5 +98,14 @@ Tested with PySpark native checks:
 
 ## ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
+## Genrative AI Application - Microsoft Copilot
+- Summarise report by using a smart narrative
+
+- Create report subscriptions with Copilot summaries
+
+- Suggest decision/action
+
+- Integrate with other Copilots
+
 
 
