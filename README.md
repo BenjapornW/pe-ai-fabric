@@ -5,8 +5,10 @@
 2. [Problem Statement](#problem-statement)
 3. [Technology Stack](#technology-stack)
 4. [Data Architecture](#data-architecture)
-5. [Impact](#impact)
-6. [Key Takeaways](#key-takeaways)
+5. [Components](#components)
+6. [Impact](#impact)
+7. [Key Takeaways](#key-takeaways)
+8. [Power BI Dashboard](#power-bi-dashboard)
 
 
 ## 🔭 About the Project
