@@ -95,7 +95,7 @@ The practical benefit is auditability. When a user questions a return figure, we
 - IRR (Internal Rate of Return) 
 - MOIC (Multiple on Invested Capital)
 
-## 🧪 Data Quality
+## 🧪 Data Validation
 Tested with PySpark native checks:
 
 - ✅ No zero IRR
