@@ -75,6 +75,7 @@ The practical benefit is auditability. When a user questions a return figure, we
 - Full data lineage means every metric is traceable back to its source, which is critical for regulatory reporting.
 
 ## 💡 Key Takeaways
+- Successful data solutions require a balance of technology and domain expertise to drive business value.
 - A trusted data foundation must come before AI. Automation only adds value when the underlying numbers are reliable.
 - Medallion Architecture suits PE data well. It handles inconsistent multi-source inputs while maintaining auditability.
 - A shared semantic model creates team alignment and removes the risks that come with spreadsheet-based workflows.
