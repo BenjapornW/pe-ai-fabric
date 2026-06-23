@@ -151,7 +151,17 @@ Our dashboard flows from a high-level summary down to deep financial details:
   - Balance Sheet
 - Detail (Free Cash Flow): Deep dive into exact cash movements.
   - Free Cash Flow
+  
+## 👥 Use Cases: How Research Teams Use This
 
+  Private equity research analysts use this solution to:
+  
+  - Screen portfolio companies by performance (IRR, EBITDA, MOIC)
+  - Identify drivers behind underperformance or growth
+  - Compare funds and investments on a standardised basis
+  - Prepare investment committee (IC) updates faster
+  - Generate first-draft narratives for investment memos using AI
+  
 ## 🤖 Genrative AI Application - Microsoft Copilot
 
 Input: Semantic model metrics
