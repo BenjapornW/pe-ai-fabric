@@ -8,7 +8,9 @@
 5. [Components](#components)
 6. [Impact](#impact)
 7. [Key Takeaways](#key-takeaways)
-8. [Power BI Dashboard](#power-bi-dashboard)
+8. Gold Layer Star Schema
+9. Key KPIs
+10. [Power BI Dashboard](#power-bi-dashboard)
 
 
 ## 🔭 About the Project
@@ -73,7 +75,7 @@ The practical benefit is auditability. When a user questions a return figure, we
 - A shared semantic model creates team alignment and removes the risks that come with spreadsheet-based workflows.
 - BI capabilities are most impactful when built around the firm's value creation objectives, not just data availability.
 
-## Gold Layer Star Schema
+## 📝 Gold Layer Star Schema
 | Table | Type | Description |
 | -------- | -------- | -------- |
 | fact_fund_performance  | Fact   | Tracks fund-level growth and investor returns using IRR and MOIC.  |
