@@ -15,8 +15,12 @@
 
 ## 🔭 About the Project
 Portview, an end-to-end Microsoft Fabric solution that automates private equity portfolio reporting and embeds AI to accelerate research, analysis, and investor communications.
+
 What is a private equity?
 Private equity (PE) is an investment business where firms buy whole companies, improve them, and sell them later for a profit. Unlike public stocks, these companies are not traded on open stock exchanges.
+
+<img src="https://napkinfinance.com/wp-content/uploads/2018/01/NapkinFinance-PrivateEquity-Napkin-09-08-20-v05.jpg" width="460" height="460" alt="Private Equity Explained">
+
 
 ## 🚩 Problem Statement
 Many private equity firms rely on multiple Excel spreadsheets to track performance, making reporting slow, difficult to manage, and prone to errors. This often leads to inconsistent numbers, limited visibility, and delays in decision-making.
@@ -38,6 +42,7 @@ Gold contains only business-ready metrics — EBITDA, IRR — consistent and rea
 The practical benefit is auditability. When a user questions a return figure, we can trace it from the dashboard all the way back to the original source document.
 
 ![PrivateEquityMedallion](https://github.com/BenjapornW/pe-ai-fabric/blob/main/img/pefabricdiagram.png)
+
 
 ## 🧩 Components
 
