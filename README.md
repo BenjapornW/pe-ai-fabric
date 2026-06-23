@@ -90,10 +90,10 @@ The practical benefit is auditability. When a user questions a return figure, we
 | dim_portfolio_company | Dimension   | Stores the acquired company name, industry sector, and country location.   |
 | dim_date| Dimension   | Stores calendar details to standardise quarterly and yearly time tracking. |
 
-## Semantic Model
+## 💎 Semantic Model
 
 
-## Key KPIs
+## 🏆 Key KPIs
 - EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
 - IRR (Internal Rate of Return) 
 - MOIC (Multiple on Invested Capital)
