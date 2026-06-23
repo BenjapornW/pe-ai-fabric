@@ -33,6 +33,13 @@ To address these challenges, an automated dashboard brings all key information i
 - Microsoft Copilot
 
 ## 📦 Data Architecture
+- 🧠 Why Microsoft Fabric?
+
+  - Unified platform reduces ETL complexity
+  - Native integration between Lakehouse, Warehouse, Power BI
+  - Simplifies medallion architecture implementation
+  - Supports AI embedding (Copilot-ready ecosystem)
+
 - Medallion Architecture
 
 We adopted the Medallion Architecture (Bronze → Silver → Gold) in Microsoft Fabric to bring structure and reliability to a data environment that is inherently messy. Private equity data arrives from many sources, each with different formats and quality levels.
@@ -42,6 +49,7 @@ Gold contains only business-ready metrics — EBITDA, IRR — consistent and rea
 The practical benefit is auditability. When a user questions a return figure, we can trace it from the dashboard all the way back to the original source document.
 
 ![PrivateEquityMedallion](https://github.com/BenjapornW/pe-ai-fabric/blob/main/img/pefabricdiagram.png)
+
 
 
 ## 🧩 Components
@@ -103,6 +111,8 @@ The practical benefit is auditability. When a user questions a return figure, we
 Tested with PySpark native checks:
 
 - ✅ No zero IRR
+- ✅ Duplicate deal / fund validation
+- ✅ Outlier detection for EBITDA / IRR spikes
 
 
 ## 📊 Data Visualizations: Power Bi Dashboard
@@ -117,6 +127,13 @@ Our dashboard flows from a high-level summary down to deep financial details:
   - Free Cash Flow
 
 ## 🤖 Genrative AI Application - Microsoft Copilot
+
+Input: Semantic model metrics
+
+Processing: Copilot / prompt-based summarisation
+
+Output: Executive summary, variance explanation, recommendations
+
 - Summarise report by using a smart narrative
 
 - Create report subscriptions with Copilot summaries
