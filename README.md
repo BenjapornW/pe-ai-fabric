@@ -104,7 +104,7 @@ Tested with PySpark native checks:
 - ✅ No zero IRR
 
 
-## 📊 Power Bi Dashboard
+## 📊 Dat Visualizations: Power Bi Dashboard
 - Executive Summary
 - Income Statement
 - Balance Sheet
@@ -119,5 +119,10 @@ Tested with PySpark native checks:
 
 - Integrate with other Copilots
 
+- Automated KPI alerts and recommendations
 
+## Future Improvement
+- What-If Analysis – Allow users to ask questions such as "What happens if occupancy drops by 5%?" and receive projected outcomes.
+- Copilot-generated executive summaries
+- Implement data quality monitoring, lineage tracking, and governance controls within Microsoft Fabric.
 
