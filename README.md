@@ -126,6 +126,7 @@ End-to-end flow:
 | dim_date| Dimension   | Stores calendar details to standardise quarterly and yearly time tracking. |
 
 ## 💎 Semantic Model
+<img width="858" height="604" alt="image" src="https://github.com/user-attachments/assets/be9e89a9-d5a2-4959-9bcd-45bcfb73edad" />
 
 
 ## 🏆 Key KPIs
