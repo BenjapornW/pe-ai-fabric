@@ -20,7 +20,7 @@ End-to-End Private Equity Analytics Solution Using Microsoft Fabric & AI
 17. [Generative AI Application – Microsoft Copilot](#-genrative-ai-application---microsoft-copilot)
 18. [Future Improvement](#-future-improvement)
 
-
+<a id="about-the-project"></a>
 ## 🔭 About the Project
 Portview, an end-to-end Microsoft Fabric solution that automates private equity portfolio reporting and embeds AI to accelerate research, analysis, and investor communications.
 
@@ -136,7 +136,7 @@ End-to-end flow:
 ## 💎 Semantic Model
 <img width="858" height="604" alt="image" src="https://github.com/user-attachments/assets/be9e89a9-d5a2-4959-9bcd-45bcfb73edad" />
 
-## Linenage View
+## Lineage View
 <img width="1377" height="606" alt="image" src="https://github.com/user-attachments/assets/16b6d829-a71f-436e-8b08-4b0050044901" />
 
 
