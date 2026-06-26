@@ -29,6 +29,7 @@ Private equity (PE) is an investment business where firms buy whole companies, i
 
 <img src="https://napkinfinance.com/wp-content/uploads/2018/01/NapkinFinance-PrivateEquity-Napkin-09-08-20-v05.jpg" width="460" height="460" alt="Private Equity Explained">
 
+<a id="business-context"></a>
 ## 🧭 Business Context
 
   This solution supports two core private equity objectives:
@@ -40,11 +41,13 @@ Private equity (PE) is an investment business where firms buy whole companies, i
   2. 📊 Monitor Performance
   
   Provide a consistent, real-time view of portfolio performance using standardised KPIs (IRR, MOIC, EBITDA), enabling early detection of performance gaps and informed decision-making.
-  
-  ## 🚩 Problem Statement
+
+<a id="problem-statement"></a>  
+## 🚩 Problem Statement
 Many private equity firms rely on multiple Excel spreadsheets to track performance, making reporting slow, difficult to manage, and prone to errors. This often leads to inconsistent numbers, limited visibility, and delays in decision-making.
 To address these challenges, an automated dashboard brings all key information into one place, providing a single source of truth and real-time visibility into performance. This helps teams spend less time preparing reports and more time making informed decisions.
 
+<a id="challenges--solutions"></a>
 ## ⚠️ Challenges & Solutions
   - Challenge: Inconsistent data formats across portfolio companies
     -  → Solution: Standardization layer in Silver using Dataflow Gen2
@@ -53,11 +56,13 @@ To address these challenges, an automated dashboard brings all key information i
   - Challenge: KPI inconsistency across teams
     -  → Solution: Central semantic model as single source of truth
 
+<a id="technology-stack"></a>
 ## 🛠 Technology Stack
 - Fabric
 - Power BI
 - Microsoft Copilot
 
+<a id="data-architecture"></a>
 ## 📦 Data Architecture
 - 🧠 Why Microsoft Fabric?
 
@@ -85,7 +90,8 @@ End-to-end flow:
   5. Semantic Model defines KPIs
   6. Power BI consumes model
   7. Copilot generates insights
-
+  
+<a id="components"></a>
 ## 🧩 Components
 
 1. Data Sources
@@ -109,6 +115,7 @@ End-to-end flow:
 4. AI-Powered Insights
 - Copilot AI Agent – Generates executive summaries, explains performance trends, highlights key insights, and recommends actions based on dashboard data.
 
+<a id="impact"></a>
 ## 🎯 Impact
 - Replaced manual, Excel-based reporting with an automated daily pipeline, freeing the team for higher-value work.
 - Single shared semantic model eliminates version conflicts and ensures everyone works from the same numbers.
@@ -116,6 +123,7 @@ End-to-end flow:
 - Embedded AI assists with research, memo drafting, and variance commentary without unnecessary cost overhead.
 - Full data lineage means every metric is traceable back to its source, which is critical for regulatory reporting.
 
+<a id="key-takeaways"></a>
 ## 💡 Key Takeaways
 - Successful data solutions require a balance of technology and domain expertise to drive business value.
 - A trusted data foundation must come before AI. Automation only adds value when the underlying numbers are reliable.
@@ -123,6 +131,7 @@ End-to-end flow:
 - A shared semantic model creates team alignment and removes the risks that come with spreadsheet-based workflows.
 - BI capabilities are most impactful when built around the firm's value creation objectives, not just data availability.
 
+<a id="gold-layer-star-schema"></a>
 ## 📝 Gold Layer Star Schema
 | Table | Type | Description |
 | -------- | -------- | -------- |
@@ -133,18 +142,21 @@ End-to-end flow:
 | dim_portfolio_company | Dimension   | Stores the acquired company name, industry sector, and country location.   |
 | dim_date| Dimension   | Stores calendar details to standardise quarterly and yearly time tracking. |
 
+<a id="semantic-model"></a>
 ## 💎 Semantic Model
 <img width="858" height="604" alt="image" src="https://github.com/user-attachments/assets/be9e89a9-d5a2-4959-9bcd-45bcfb73edad" />
 
+<a id="lineage-view"></a>
 ## Lineage View
 <img width="1377" height="606" alt="image" src="https://github.com/user-attachments/assets/16b6d829-a71f-436e-8b08-4b0050044901" />
 
-
+<a id="key-kpis"></a>
 ## 🏆 Key KPIs
 - EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
 - IRR (Internal Rate of Return) 
 - MOIC (Multiple on Invested Capital)
 
+<a id="data-validation"></a>
 ## 🧪 Data Validation
 Tested with PySpark native checks:
 
@@ -152,7 +164,7 @@ Tested with PySpark native checks:
 - ✅ Duplicate deal / fund validation
 - ✅ Outlier detection for EBITDA / IRR spikes
 
-
+<a id="power-bi-dashboard"></a>
 ## 📊 Data Visualizations: Power Bi Dashboard
 Dashboard Structure: Top-Down Approach. 
 Our dashboard flows from a high-level summary down to deep financial details:
@@ -163,7 +175,8 @@ Our dashboard flows from a high-level summary down to deep financial details:
   - Balance Sheet
 - Detail (Free Cash Flow): Deep dive into exact cash movements.
   - Free Cash Flow
-  
+
+<a id="use-cases"></a>
 ## 👥 Use Cases: How Research Teams Use This
 
   Private equity research analysts use this solution to:
@@ -173,7 +186,8 @@ Our dashboard flows from a high-level summary down to deep financial details:
   - Compare funds and investments on a standardised basis
   - Prepare investment committee (IC) updates faster
   - Generate first-draft narratives for investment memos using AI
-  
+
+<a id="generative-ai-application"></a>
 ## 🤖 Genrative AI Application - Microsoft Copilot
 
 Input: Semantic model metrics
@@ -195,7 +209,7 @@ Output: Executive summary, variance explanation, recommendations
 - <img width="266" height="449" alt="image" src="https://github.com/user-attachments/assets/9cad7381-6c7b-46a9-a56a-b50abdd3fcd1" />
 
 
-
+<a id="future-improvement"></a>
 ## 🚀 Future Improvement
 - What-If Analysis – Allow users to ask questions such as "What happens if occupancy drops by 5%?" and receive projected outcomes.
 - Copilot-generated executive summaries
