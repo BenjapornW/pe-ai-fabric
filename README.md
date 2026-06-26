@@ -128,6 +128,9 @@ End-to-end flow:
 ## 💎 Semantic Model
 <img width="858" height="604" alt="image" src="https://github.com/user-attachments/assets/be9e89a9-d5a2-4959-9bcd-45bcfb73edad" />
 
+## Linenage View
+<img width="1377" height="606" alt="image" src="https://github.com/user-attachments/assets/16b6d829-a71f-436e-8b08-4b0050044901" />
+
 
 ## 🏆 Key KPIs
 - EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)
