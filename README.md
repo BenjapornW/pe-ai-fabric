@@ -177,12 +177,15 @@ Output: Executive summary, variance explanation, recommendations
 - Summarise report by using a smart narrative
 
 - Create report subscriptions with Copilot summaries
+- <img width="513" height="752" alt="image" src="https://github.com/user-attachments/assets/fe5aee34-5f83-44eb-a632-17e2db7fb484" />
 
 - Suggest decision/action
 
 - Integrate with other Copilots
 
 - Automated KPI alerts and recommendations
+- <img width="266" height="449" alt="image" src="https://github.com/user-attachments/assets/9cad7381-6c7b-46a9-a56a-b50abdd3fcd1" />
+
 
 
 ## 🚀 Future Improvement
