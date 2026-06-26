@@ -2,15 +2,23 @@
 End-to-End Private Equity Analytics Solution Using Microsoft Fabric & AI
 ## 🔗 Table of Contents
 1. [About the Project](#about-the-project)
-2. [Problem Statement](#problem-statement)
-3. [Technology Stack](#technology-stack)
-4. [Data Architecture](#data-architecture)
-5. [Components](#components)
-6. [Impact](#impact)
-7. [Key Takeaways](#key-takeaways)
-8. Gold Layer Star Schema
-9. Key KPIs
-10. [Power BI Dashboard](#power-bi-dashboard)
+2. [Business Context](#business-context)
+3. [Problem Statement](#problem-statement)
+4. [Challenges & Solutions](#challenges--solutions)
+5. [Technology Stack](#technology-stack)
+6. [Data Architecture](#data-architecture)
+7. [Components](#components)
+8. [Impact](#impact)
+9. [Key Takeaways](#key-takeaways)
+10. [Gold Layer Star Schema](#-gold-layer-star-schema)
+11. [Semantic Model](#-semantic-model)
+12. [Lineage View](#linenage-view)
+13. [Key KPIs](#-key-kpis)
+14. [Data Validation](#-data-validation)
+15. [Power BI Dashboard](#-data-visualizations-power-bi-dashboard)
+16. [Use Cases](#-use-cases-how-research-teams-use-this)
+17. [Generative AI Application – Microsoft Copilot](#-genrative-ai-application---microsoft-copilot)
+18. [Future Improvement](#-future-improvement)
 
 
 ## 🔭 About the Project
