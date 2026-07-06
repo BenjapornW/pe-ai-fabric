@@ -10,7 +10,7 @@ End-to-End Private Equity Analytics Solution Using Microsoft Fabric & AI
 7. [Components](#components)
 8. [Impact](#impact)
 9. [Key Takeaways](#key-takeaways)
-10. [Gold Layer Star Schema](#-gold-layer-star-schema)
+10. [Gold Layer Galaxy Schema](#-gold-layer-galaxy-schema)
 11. [Semantic Model](#-semantic-model)
 12. [Lineage View](#linenage-view)
 13. [Key KPIs](#-key-kpis)
@@ -131,8 +131,8 @@ End-to-end flow:
 - A shared semantic model creates team alignment and removes the risks that come with spreadsheet-based workflows.
 - BI capabilities are most impactful when built around the firm's value creation objectives, not just data availability.
 
-<a id="gold-layer-star-schema"></a>
-## 📝 Gold Layer Star Schema
+<a id="gold-layer-galaxy-schema"></a>
+## 📝 Gold Layer Galaxy Schema
 | Table | Type | Description |
 | -------- | -------- | -------- |
 | fact_fund_performance  | Fact   | Tracks fund-level growth and investor returns using IRR and MOIC.  |
